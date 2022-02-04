@@ -1,0 +1,22 @@
+.navbar{
+    grid-area: n;
+    background-color: #000000;
+    text-align: center;
+    margin: 0px 2px;
+    border-right: 5px dotted #1d1c1c;
+  }
+  .navbar a{
+    font-family: stalker;
+    margin: 0px 5px;
+    font-size: 27px;
+    color: #3b3636;
+    text-decoration: none;
+    transition: 1.5s;
+  } 
+  .navbar a:hover{
+    color: #d19a02;
+    text-shadow: 0px 0px 20px #ff2600,0px 0px 30px #c93419;
+    transition: 0.5s;
+  }   
+  
+  

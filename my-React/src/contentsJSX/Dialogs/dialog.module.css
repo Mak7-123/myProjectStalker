@@ -1,0 +1,106 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 15fr;
+    grid-template-areas: 'a b';
+    background-color: rgb(110, 119, 107);
+    
+    height: 600px;
+}
+ .dialogsItem{
+  grid-area: a;
+  background-color: #011d01c4;
+  
+}
+.messages{
+  grid-area: b;
+  background-color: #0c3602;
+}
+
+
+
+
+.user{
+  position: relative;
+  display: grid;
+  grid-template-columns: 3fr 10fr;
+  grid-template-areas: 'a b';
+  /* background-color: #275e27; */
+  background: linear-gradient(180deg, rgba(74,135,17,1) 17%, rgba(54,93,17,1) 80%, rgba(50,94,7,1) 100%);
+  margin: 0px 0px 1px 0px;
+  border-radius: 0px 0px 5px 0px;
+  transition: 0.5s;
+}
+.user:hover{
+  margin: 0px 0px 1px 0px;
+  border-radius: 0px 0px 5px 0px;
+  box-shadow: -2px 2px 4px #000000;
+  background: linear-gradient(180deg, rgba(58,106,14,1) 17%, rgba(38,64,14,1) 80%, rgba(33,62,5,1) 100%);
+  transition: 0.5s;
+}
+.userLogo{
+grid-area: a;
+}
+.userName{
+  grid-area: b;
+}
+.userName a{
+  position: absolute;
+  grid-area: b;
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 0%;
+  transition: 0.3s;
+}
+.userName a:hover{
+  text-shadow: 0px 0px 35px #eeff00;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+
+
+
+.messageText{
+  margin: 10px 1px 10px 1px;
+  padding: 0px 0px 0px 0px;
+}
+.messageText a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5px 30px 30px 50px;
+  background-color: #aa9b9b;
+  color: #000000;
+  margin: 10px 5px 0px 5px;
+  padding: 2px 10px 2px 10px;
+}
+
+
+
+
+.clickMessage{
+position: relative;
+}
+.clickTextarea textarea{
+  max-width: 300px;
+  min-width: 300px;
+  min-height: 30px;
+  border: solid 3px #422601;
+  border-radius: 10px 10px 0px 0px;
+  color: #4b4635;
+  font-weight: 900;
+}
+.clickButton button{ 
+  border-radius: 0px 0px 10px 10px;
+  background: linear-gradient(180deg, rgba(121,121,106,1) 7%, rgba(122,122,102,1) 43%, rgba(32,32,28,1) 100%);
+  box-shadow: 0px 3px 3px #000000;
+  width: 80px;
+  transition: 0.2s;
+}
+.clickButton button:active{ 
+  background: linear-gradient(180deg, rgba(149,149,131,1) 7%, rgba(145,145,122,1) 43%, rgba(54,54,47,1) 100%);
+  box-shadow: 0px 1px 1px #000000;
+  transition: 0.2s;
+}
+

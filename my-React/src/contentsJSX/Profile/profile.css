@@ -1,0 +1,38 @@
+
+.posts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:'a b c' ;
+  }
+
+.posts div{
+  font-family: stalker;
+  font-size: 32px;
+  color: #2e2b2b;
+  transition: 0.7s;
+}
+
+.posts div:hover{
+  color: #534d4d;
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF,
+               0 0 20px #2b7517, 0 0 30px #36a318, 0 0 40px #38ad17,
+               0 0 55px #c1e014, 0 0 75px #750909;
+}
+
+.item_1{
+  grid-area: a;
+}
+.item_2{
+  grid-area: b;
+}
+.item_3{
+  grid-area: c;
+} 
+ 
+
+
+  
+
+
+
+

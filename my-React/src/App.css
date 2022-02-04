@@ -1,0 +1,32 @@
+/* html, body { height: 100%; } */
+
+body{
+ box-sizing: border-box;
+ background-color: #000000;
+ min-width: 1300px;
+ color: #ffffff;
+}
+
+@font-face {
+  font-family: stalker;
+  src: url(./font/rusboycott.ttf);
+}
+
+
+.app-wrapper{
+  display: grid;
+  grid-template-rows: 70px 1fr;
+  grid-template-columns: 2fr 20fr;
+  grid-template-areas: 'h h'
+                       'n p';
+}
+
+
+.app-wrapper-content{
+  grid-area: p;
+  height: 600px;
+}
+
+
+
+

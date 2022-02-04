@@ -1,0 +1,17 @@
+.killer{
+    position: relative;
+  }
+  .killer img {
+    position: absolute;
+    grid-area: p;
+    width: 1040px;
+    height: 711px;
+    left: 275px;
+    top: -110px;
+    transition: 1.3s;
+  }
+.killer img:hover {
+    left: 250px;
+    transition: 1s;
+    -webkit-filter: drop-shadow(30px 20px 30px #0000008e);
+  }
